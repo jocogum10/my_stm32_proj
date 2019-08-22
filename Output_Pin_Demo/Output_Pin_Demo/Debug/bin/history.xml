@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Output_Pin_Demo.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Output_Pin_Demo -TC:\CooCox\CoIDE\configuration\ProgramData\Output_Pin_Demo/link.ld -g">
+      <target file="Output_Pin_Demo.elf" lastModified="16cb9830e3d">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="16cb9808338"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="16cb9808461"/>
+         <source file="..\obj\main.o" lastModified="16cb9830b20"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="16cb9808607"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="16cb98086b3"/>
+      </target>
+   </processor>
+</history>
