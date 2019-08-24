@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -I..\..\..\workspace\Output_Pin_and_Push_Button_Demo\cmsis -I..\..\..\workspace -I..\..\..\workspace\Output_Pin_and_Push_Button_Demo\cmsis_boot -I..\..\..\workspace\Output_Pin_and_Push_Button_Demo -I..\..\..\workspace\Output_Pin_and_Push_Button_Demo\cmsis_lib\include -I..\..\..\workspace\Output_Pin_and_Push_Button_Demo\cmsis_lib">
+      <target file="stm32f30x_gpio.o" lastModified="16cc172da28">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="16cc15c6364"/>
+      </target>
+      <target file="startup_stm32f30x.o" lastModified="16cc172dcf7">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="16cc172b106"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="16cc172dc1c">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="16cc172b135"/>
+      </target>
+      <target file="main.o" lastModified="16cc1855329">
+         <source file="..\..\..\main.c" lastModified="16cc185489a"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="16cc172d892">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="16cc15c56e1"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\Output_Pin_and_Push_Button_Demo\cmsis /I..\..\..\workspace /I..\..\..\workspace\Output_Pin_and_Push_Button_Demo\cmsis_boot /I..\..\..\workspace\Output_Pin_and_Push_Button_Demo /I..\..\..\workspace\Output_Pin_and_Push_Button_Demo\cmsis_lib\include /I..\..\..\workspace\Output_Pin_and_Push_Button_Demo\cmsis_lib">
+      <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="16cc172b135">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h" lastModified="16cc15c56b2">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16cc1729689">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16cc1729699">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="16cc15c56e1">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="16cc172b125">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h" lastModified="16cc15c6326">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="16cc1729282">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="16cc15c6364">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f30x.h" lastModified="16cc172b50d">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="16cc1729679">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="16cc172b106">
+      </source>
+   </includePath>
+</dependencies>
