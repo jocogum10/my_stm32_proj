@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Counting_LED_display.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Counting_LED_display -TC:\CooCox\CoIDE\configuration\ProgramData\Counting_LED_display/link.ld -g">
+      <target file="Counting_LED_display.elf" lastModified="16cc6f82376">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="16cc6f81a7d"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="16cc6f81c62"/>
+         <source file="..\obj\main.o" lastModified="16cc6f81d9a"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="16cc6f81ea4"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="16cc6f81fbd"/>
+      </target>
+   </processor>
+</history>

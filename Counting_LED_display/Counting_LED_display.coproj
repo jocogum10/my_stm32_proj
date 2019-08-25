@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Project version="2G - 1.7.8" name="Output_Pin_and_Push_Button_Demo">
-  <Target name="Output_Pin_and_Push_Button_Demo" isCurrent="1">
+<Project version="2G - 1.7.8" name="Counting_LED_display">
+  <Target name="Counting_LED_display" isCurrent="1">
     <Device manufacturerId="9" manufacturerName="ST" chipId="520" chipName="STM32F303VC" boardId="" boardName=""/>
     <BuildOption>
       <Compile>
@@ -30,12 +30,12 @@
           <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
           <Memory name="IRAM2" type="ReadWrite" size="0x00002000" startValue="0x10000000"/>
         </MemoryAreas>
-        <LocateLinkFile path="../../configuration/programdata/output_pin_and_push_button_demo/link.ld" type="0"/>
+        <LocateLinkFile path="../../configuration/programdata/counting_led_display/link.ld" type="0"/>
       </Link>
       <Output>
         <Option name="OutputFileType" value="0"/>
         <Option name="Path" value="./"/>
-        <Option name="Name" value="Output_Pin_and_Push_Button_Demo"/>
+        <Option name="Name" value="Counting_LED_display"/>
         <Option name="HEX" value="1"/>
         <Option name="BIN" value="1"/>
       </Output>
@@ -72,13 +72,13 @@
     <Component id="1207" name="GPIO" path="" type="2"/>
   </Components>
   <Files>
-    <File name="cmsis_lib/include/stm32f30x_gpio.h" path="cmsis_lib/include/stm32f30x_gpio.h" type="1"/>
     <File name="cmsis_lib/include/stm32f30x_rcc.h" path="cmsis_lib/include/stm32f30x_rcc.h" type="1"/>
+    <File name="cmsis_lib/include/stm32f30x_gpio.h" path="cmsis_lib/include/stm32f30x_gpio.h" type="1"/>
     <File name="cmsis" path="" type="2"/>
     <File name="cmsis_lib/source/stm32f30x_gpio.c" path="cmsis_lib/source/stm32f30x_gpio.c" type="1"/>
     <File name="cmsis_lib" path="" type="2"/>
-    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
     <File name="cmsis_boot/stm32f30x.h" path="cmsis_boot/stm32f30x.h" type="1"/>
+    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
     <File name="cmsis_lib/source" path="" type="2"/>
     <File name="cmsis_boot" path="" type="2"/>
     <File name="cmsis_boot/startup/startup_stm32f30x.S" path="cmsis_boot/startup/startup_stm32f30x.S" type="1"/>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F303VC -DSTM32F30X -I..\..\..\workspace\Counting_LED_display -I..\..\..\workspace -I..\..\..\workspace\Counting_LED_display\cmsis -I..\..\..\workspace\Counting_LED_display\cmsis_lib\include -I..\..\..\workspace\Counting_LED_display\cmsis_lib -I..\..\..\workspace\Counting_LED_display\cmsis_boot">
+      <target file="startup_stm32f30x.o" lastModified="16cc6f81fbd">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="16cc6f37603"/>
+      </target>
+      <target file="stm32f30x_gpio.o" lastModified="16cc6f81c62">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="16cc6f375b5"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="16cc6f81ea4">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="16cc6f37632"/>
+      </target>
+      <target file="main.o" lastModified="16cc6f81d9a">
+         <source file="..\..\..\main.c" lastModified="16cc6f7f66b"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="16cc6f81a7d">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="16cc6f375e4"/>
+      </target>
+   </processor>
+</history>
